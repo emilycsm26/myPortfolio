@@ -2386,6 +2386,35 @@ input, select, textarea {
 			margin-bottom: 3em;
 		}
 
+		.footer-icons {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Increased spacing between icons */
+        }
+
+        .icon-button {
+            display: inline-block;
+            border: none;
+            padding: 0;
+            background: none;
+            cursor: pointer;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .icon-button img {
+            display: block;
+            width: 40px; /* Larger size */
+            height: auto;
+        }
+
+        .icon-button:hover img {
+            transform: scale(1.2); /* Zoom effect */
+            opacity: 0.8; /* Slight opacity change on hover */
+        }
+
 /* Copyright */
 
 	#copyright {
@@ -2649,6 +2678,34 @@ input, select, textarea {
 			#footer header.major {
 				margin-bottom: 1.5em;
 			}
+			.footer-icons {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				gap: 20px; /* Increased spacing between icons */
+			}
+	
+			.icon-button {
+				display: inline-block;
+				border: none;
+				padding: 0;
+				background: none;
+				cursor: pointer;
+				transition: transform 0.2s, opacity 0.2s;
+			}
+	
+			.icon-button img {
+				display: block;
+				width: 40px; /* Larger size */
+				height: auto;
+			}
+	
+			.icon-button:hover img {
+				transform: scale(1.2); /* Zoom effect */
+				opacity: 0.8; /* Slight opacity change on hover */
+			}
 
 	}
 
@@ -2751,6 +2808,34 @@ input, select, textarea {
 					border-top: 0;
 					padding-top: 0;
 					margin-top: 0;
+				}
+				.footer-icons {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+					display: flex;
+					justify-content: center;
+					gap: 20px; /* Increased spacing between icons */
+				}
+		
+				.icon-button {
+					display: inline-block;
+					border: none;
+					padding: 0;
+					background: none;
+					cursor: pointer;
+					transition: transform 0.2s, opacity 0.2s;
+				}
+		
+				.icon-button img {
+					display: block;
+					width: 40px; /* Larger size */
+					height: auto;
+				}
+		
+				.icon-button:hover img {
+					transform: scale(1.2); /* Zoom effect */
+					opacity: 0.8; /* Slight opacity change on hover */
 				}
 
 		/* Hero */
@@ -3065,6 +3150,34 @@ input, select, textarea {
 
 			#footer header.major {
 				margin-bottom: 1em;
+			}
+			.footer-icons {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				gap: 20px; /* Increased spacing between icons */
+			}
+	
+			.icon-button {
+				display: inline-block;
+				border: none;
+				padding: 0;
+				background: none;
+				cursor: pointer;
+				transition: transform 0.2s, opacity 0.2s;
+			}
+	
+			.icon-button img {
+				display: block;
+				width: 40px; /* Larger size */
+				height: auto;
+			}
+	
+			.icon-button:hover img {
+				transform: scale(1.2); /* Zoom effect */
+				opacity: 0.8; /* Slight opacity change on hover */
 			}
 
 	}
